@@ -7,8 +7,8 @@ body {
   /* This style below will be inherited */
   font-family: 'Open Sans',sans-sherif;
   margin: 0;
-  padding-top: 80px;
-  padding-left: 96px;
-  padding-right: 24px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: rgb(229, 228, 226);
 }
