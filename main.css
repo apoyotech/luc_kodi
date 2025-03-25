@@ -13,31 +13,21 @@ body {
   padding: 0;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h1 {
   margin: 10px 0 15px;
 }
 
-.nav, nav {
-  display: inline;
-  list-style: none;
-  margin: 1em 0;
-  padding: 0;
-}
-.nav li, nav li {
-  display: inline;
-  margin-right: 1em;
-}
+
 
 p, ul {
   margin: 10px 0;
 }
 
-.skills ul li {
-  margin-left: 30px;;
-}
+
+
 
 a {
   color: #00b8d4;
@@ -126,22 +116,4 @@ a.active {
   margin: 5px 0;
 }
 
-/*
- * SKILLS
- */
 
-.skills {
-  background: #e91e63;
-  color: white;
-}
-
-.footer, footer {
-  margin-top: 2em;
-  background-color: #444;
-  color: #eee;
-}
-.footer h1, footer h1 {
-  font-size: 16px;
-}
-.footer p, footer p {
-  font-size: 14px;
