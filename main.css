@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-body {
+html, body {
   background: #E5E4E2;
   color: #000000;
   font-family: "Helvetica Neue", Arial, serif;
-  font-size: 22px;
+  font-size: 1.2rem;
   margin: 0;
   padding-left: 20px;
   padding-right: 20px;
