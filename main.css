@@ -4,10 +4,20 @@
   padding: 0;
 }
 
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('font-awesome.css');  
+@import url('animate.css');
+
+
+
+
+
+
+
 html, body {
   background: #E5E4E2;
   color: #000000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans',Arial, sans-serif;
   font-size: 1.2rem;
   margin: 0;
   padding-left: 20px;
