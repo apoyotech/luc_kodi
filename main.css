@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.html, body {
+html, body {
   background: #E5E4E2;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
@@ -80,13 +80,6 @@ a.active {
   padding: 0 20px;
   position: relative;
   text-align: center;
-  
-  
-
-
-
-
-  
 }
 
 @media only screen and (max-device-width: 420px)  {
