@@ -36,7 +36,7 @@ a {
   text-decoration: none;
   border-bottom: 3px solid #A9A9A9;
   padding: 3px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 5px 5px 5px 5px;
 }
 
 a:hover {
@@ -72,9 +72,9 @@ a.active {
   background-repeat: no-repeat;
   background-size: 100% auto;
   border-top: 4px solid #FFA500;
-  border-left: 4px solid #FFA500;
-  border-right: 4px solid #FFA500;
-  border-bottom: 4px solid #FFA500;
+  border-bottom: 4px solid # FFA500;
+  
+  
   color: #FFA500;
   display: flex;
   flex-direction: column;
