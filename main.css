@@ -7,7 +7,7 @@
 html, body {
   background: #E5E4E2;
   color: #000000;
-  font-family: 'Open Sans',Arial, sans-serif;
+  font-family: 'Open Sans' ,Arial ,sans-serif;
   font-size: 1.2rem;
   margin: 0;
   padding-left: 20px;
@@ -36,11 +36,11 @@ a {
   text-decoration: none;
   border-bottom: 3px solid #0F52BA;
   padding: 3px;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 a:hover {
-  background-color: #A9A9A9;
+  background-color: #E5E4E2;
   color: white;
 }
 
