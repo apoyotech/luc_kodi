@@ -21,28 +21,21 @@ h1 {
   margin: 10px 0 15px;
 }
 
-
-
- ul {
+ul {
   margin: 10px 0;
 }
-
-
-
 
 a {
   color: #0F52BA;
   font-weight: 600;
   text-decoration: none;
-  border-width: 3px;
+  border-bottom: 3px;
   border-style: solid;
-  border-color: #FFDB58;
   padding: 3px;
-  border-radius: 15px 15px 15px 15px;
 }
 
 a:hover {
-  background-color: #E49B0F;
+  background-color: #6082B6;
   color: white;
 }
 
@@ -68,8 +61,7 @@ a.active {
 
 .header, header {
   align-items: center;
-  background-color: linear-gradient(#77DD77,#6082B6);
-  background-image: url('bg.jpg');
+  background-color: #EFEFEF;
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
