@@ -81,6 +81,7 @@ a.active {
   padding: 0 20px;
   position: relative;
   text-align: center;
+  border-radius: 10px 10px 10px 10px
 }
 
 @media only screen and (max-device-width: 420px)  {
