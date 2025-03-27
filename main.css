@@ -40,7 +40,7 @@ a {
 }
 
 a:hover {
-  background-color: #E5E4E2;
+  background-color: #ACE1AF;
   color: white;
 }
 
@@ -73,8 +73,6 @@ a.active {
   background-size: 100% auto;
   border-top: 4px solid #FFA500;
   border-bottom: 4px solid #FFA500;
-  
-  
   color: #FFA500;
   display: flex;
   flex-direction: column;
