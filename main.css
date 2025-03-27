@@ -34,9 +34,9 @@ a {
   color: #0F52BA;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 3px solid #A9A9A9;
+  border-bottom: 3px solid #0F52BA;
   padding: 3px;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 20px 20px 20px 20px;
 }
 
 a:hover {
