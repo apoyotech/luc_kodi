@@ -42,6 +42,7 @@ a {
 a:hover {
   background-color: #A9A9A9;
   color: white;
+  border-radius: 15px 15px 15px 15px;
 }
 
 a:active {
@@ -81,7 +82,7 @@ a.active {
   padding: 0 20px;
   position: relative;
   text-align: center;
-  border-block: 4px solid #FFA500;
+  
 }
 
 @media only screen and (max-device-width: 420px)  {
