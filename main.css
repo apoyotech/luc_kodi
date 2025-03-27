@@ -71,7 +71,10 @@ a.active {
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border-radius: 15px 15px 15px 15px solid #FFA500;
+  border-top: 4px solid #FFA500;
+  border-left: 4px solid #FFA500;
+  border-right: 4px solid #FFA500;
+  border-bottom: 4px solid #FFA500;
   color: #FFA500;
   display: flex;
   flex-direction: column;
