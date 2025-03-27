@@ -66,7 +66,7 @@ a.active {
 
 .header, header {
   align-items: center;
-  background-color: #EFEFEF;
+  background-color: #555555;
   background-image: url('bg.jpg');
   background-position: cover;
   background-repeat: no-repeat;
