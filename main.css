@@ -71,8 +71,9 @@ a.active {
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border-top: 4px solid #FFA500;
-  border-bottom: 4px solid #FFA500;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #FFA500;
   color: #FFA500;
   display: flex;
   flex-direction: column;
