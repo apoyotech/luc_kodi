@@ -34,7 +34,9 @@ a {
   color: #0F52BA;
   font-weight: 600;
   text-decoration: none;
-  border-bottom: 3px solid #0F52BA;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #FFDB58;
   padding: 3px;
   border-radius: 15px 15px 15px 15px;
 }
