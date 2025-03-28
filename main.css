@@ -16,8 +16,6 @@ html, body {
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 h1 {
