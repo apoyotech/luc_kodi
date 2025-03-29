@@ -69,7 +69,7 @@ a.active {
   border-width: 4px;
   border-style: solid;
   border-color: #FFA500;
-  border-radius: 20px;
+  border-radius: 50px;
   color: #FFA500;
   display: flex;
   flex-direction: column;
