@@ -1,86 +1,17 @@
 
     
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
 
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            display: flex;
-            padding-left: 20px;
-            padding-right: 20px;
-            min-height: 100vh;
-            font-family: 'Open Sans', sans-serif;
-            background-color: #c9ffc4;
-        }
-
-        header {
-            padding: 20px;
-        }
-
-        h1 {
-            margin-bottom: 15px;
-            font-size: 2.5em;
-            background-image: linear-gradient(45deg, #ff0a78, #43f);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        p {
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        main {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
-
-        .card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            padding: 20px;
-            width: 250px;
-            text-align: center;
-            transition: transform 0.2s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-        }
-
-        .card h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #ff0a78;
-        }
-
-        .card p {
-            color: #666;
-        }
-
-        .cta-button {
-            background-color: #333;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 20px;
-            cursor: pointer;
-            text-decoration: none;
-            margin-top: 20px;
-            transition: background-color 0.3s;
-        }
-
-        .cta-button:hover {
-            background-color: #3bc411;
-        }
+h1 {
+  background-color: #AEC6CF;
+  color: darkgoldenrod;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px            
 
     
     
