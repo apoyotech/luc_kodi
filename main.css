@@ -1,72 +1,105 @@
 
+    
 
-html, body {
-  background-color: #74EBD5;
-  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%,);
-  color: #000000;
-  font-family: 'Open Sans' ,sans-serif;
-  font-size: 1.2rem;
-  margin: 0;
-  padding-left: 20px;
-  padding-right: 20px;
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: 2.5em;
+            background-image: linear-gradient(45deg, #ff0a78, #43f);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #ff0a78;
+        }
+
+        .card p {
+            color: #666;
+        }
+
+        .cta-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #3bc411;
+        }
+
+        footer {
+            padding: 20px;
+            margin-top: auto;
+            color: #777;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer-links {
+            margin-top: 10px;
+        }
+    
   
-  
-  
-}
-
-h1 {
-  margin: 10px 0 15px;
-}
-
-ul {
-  margin: 10px 0;
-}
-
-a {
-  color: #0F52BA;
-  font-weight: 600;
-  text-decoration: none;
-  border-bottom: 3px solid #696969;
-  padding: 3px;
-}
-
-a:hover {
-  background-color: #6082B6;
-  color: white;
-}
-
-a:active {
-  position: relative;
-  top: 1px;
-}
-
-a.active {
-  border-bottom: none;
-}
-
-
-
- header {
-  align-items: center;
-  background-color: #FF3CAC;
-  background-image: linear-gradient( #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  border-width: 4px;
-  border-style: solid;
-  border-color: #FFA500;
-  color: #FFA500;
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-  justify-content: center;
-  min-height: 250px;
-  padding: 0 20px;
-  position: relative;
-  text-align: center;
-  
-}
 
 
 
