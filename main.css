@@ -9,10 +9,10 @@ box-sizing: border-box;
 h1 {
   background-color: #C0C0C0;
   color: darkgoldenrod;
-  border: 4px solid orange;
+  border-radius: 15px solid orange;
   font-family: 'Open Sans' ,sans-serif;
   font-sie: 2.5em 
-  border-radius: 15px;  
+    
   
 
 
