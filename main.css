@@ -7,7 +7,7 @@ box-sizing: border-box;
 }
 
 h1 {
-  background-color: #C0C0C0;
+  background-color:(#C0C0C0,#708090 0.5);
   color: darkgoldenrod;
   border-radius: 15px solid orange;
   font-family: 'Open Sans' ,sans-serif;
