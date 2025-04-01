@@ -9,11 +9,10 @@
 
         body {
             display: flex;
-            
-            
+            padding-left: 20px;
+            padding-right: 20px;
             flex-direction: column;
             min-height: 100vh;
-            
             font-family: 'Arial', sans-serif;
             background-color: #f0f4f8;
         }
