@@ -52,7 +52,10 @@ header {
   padding: 0 20px;
   position: relative;
   margin-bottom: 20px;
-  }
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+   }
 
 
 footer {
