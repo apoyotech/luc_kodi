@@ -40,7 +40,7 @@ header {
 }
    h2 {
   background: rgb(143,188,143);
-  background: linear-gradient(90deg, rgba(143,188,143,1) 0%, rgba(119,221,119,1) 35%, rgba(228,155,15,1) 100%);
+  background: linear-gradient(90deg, rgba(143,188,143,1) 0%, rgba(119,221,119,1) 35%, rgba(67,179,174,1) 100%);
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100% auto;
