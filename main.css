@@ -39,8 +39,8 @@ header {
   font-size: 40px;
 }
    h2 {
-  background: rgb(143,188,143);
-  background: linear-gradient(90deg, rgba(143,188,143,1) 0%, rgba(119,221,119,1) 35%, rgba(67,179,174,1) 100%);
+  background: rgb(192,192,192);
+  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,186,182,1) 35%, rgba(175,175,175,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
   border: 5px solid darkgoldenrod;
