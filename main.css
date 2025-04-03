@@ -24,10 +24,7 @@ header {
   background-size: 100% auto;
   border: 5px darkgoldenrod;
   border-radius: 15px;
-  background-image: linear-gradient(45deg, #ff0a78, #43f);
- -webkit-background-clip: text;
-  background-clip: text;
- -webkit-text-fill-color: transparent;
+  color: linear-gradient(45deg, #ff0a78, #43f);
   display: flex;
   flex-direction: column;
   height: 40vh;
