@@ -22,7 +22,7 @@ header {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border: 5px solid darkgoldenrod;
+  border: 5px darkgoldenrod;
   border-radius: 15px;
   color: #FFA500;
   display: flex;
@@ -41,7 +41,7 @@ header {
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,172,182,1) 35%, rgba(175,175,175,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border: 5px auto darkgoldenrod;
+  border: 5px darkgoldenrod;
   border-radius: 15px;
   color: #000000;
   display: flex;
@@ -53,6 +53,7 @@ header {
   margin-bottom: 20px;
   overflow: auto;
   font-size: 20px;
+  justify-content: center;
    }
 
 
