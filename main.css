@@ -35,9 +35,9 @@ header {
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: bold;
-  background-image: linear-gradient(to right, red, blue, green); /* Define el degradado */
+  background-image: linear-gradient(to right, red,  green); /* Define el degradado */
   -webkit-background-clip: text; /* Recorta el fondo al área del texto */
-  color: transparent; /* Hace que el color del texto sea transparente para mostrar el fondo */
+  
 }
 
 
