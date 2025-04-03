@@ -34,15 +34,11 @@ header {
   text-align: center;
   margin-bottom: 20px;
   font-size: 30px;
-}
- .texto-degradado {
-  font-size: 2em;
   font-weight: bold;
   background-image: linear-gradient(to right, red, blue, green); /* Define el degradado */
   -webkit-background-clip: text; /* Recorta el fondo al área del texto */
   color: transparent; /* Hace que el color del texto sea transparente para mostrar el fondo */
-  display: inline-block; /* Necesario para que el recorte funcione correctamente en algunos casos */
- }
+}
 
 
 h2 {
