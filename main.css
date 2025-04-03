@@ -63,7 +63,7 @@ h2 {
   font-size: 20px;
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-source: conic-gradient(from var(--a), #800080, #32cd32, #00ced1);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
 
