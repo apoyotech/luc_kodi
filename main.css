@@ -34,7 +34,7 @@ header {
   text-align: center;
   margin-bottom: 20px;
   font-size: 30px;
-  color: mediumspringgreen;
+  
 }
 
 h1 {
@@ -43,6 +43,8 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
 }
 
     
