@@ -59,7 +59,7 @@ h2 {
   font-size: 20px;
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), #1E90FF, #228B22, #800080;
+  border-image-source: conic-gradient(from var(--a), #1e90ff, #228b22, #800080);
   border-image-slice: 1 1 1 1;
   border-image-width: 3px;
   animation: move 1s infinite var(--timing);
