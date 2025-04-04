@@ -64,7 +64,7 @@ h2 {
   border-image-width: 3px;
   border-radius: 15px;  
   background-origin: border-box;
-  background-clip: padding-box, border-box;
+  -webkit-background-clip: padding-box, border-box;
   animation: move 1s infinite var(--timing);
 }
   
