@@ -62,13 +62,12 @@ h2 {
   border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b);
   border-image-slice: 1 1 1 1; 
   border-image-width: 2px;
-
-animation: move 1s infinite var(--timing);
-
+  animation: move 1s infinite var(--timing);
+}
 h2.fill {
   border-image-slice: 1 1 1 1 fill; 
   }
-}
+
 @keyframes move {
   from { --a: 0deg; } 
   to { --a: 360deg; }   
