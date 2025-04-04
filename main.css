@@ -58,8 +58,8 @@ h2 {
   overflow: auto;
   font-size: 20px;
   justify-content: center;
-  --timing: conic(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b);
+  --timing: linear(0, 0.3, 0.75, 1);
+  border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b));
   border-image-slice: 1 1 1 1; /* Corrección: Agregados los cuatro valores */
   border-image-width: 2px;
   animation: move 1s infinite var(--timing);
