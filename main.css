@@ -5,8 +5,7 @@ box-sizing: border-box;
 }
 
 html, body {
-    background: rgb(211,211,211);
-    background: linear-gradient(90deg, rgba(211,211,211,1) 0%, rgba(229,228,226,1) 35%, rgba(211,211,211,1) 100%);
+    background: rgb(229,228,226);
     color: #000000;
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
@@ -33,12 +32,12 @@ header {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 25px;
   
 }
 
 h1 {
-    background-image: linear-gradient(45deg, #ff00ff, #e49b0f);
+    background-image: linear-gradient(to right, #ff00ff, #e49b0f);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;    
@@ -63,7 +62,7 @@ h2 {
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b);
   border-image-slice: 1 1 1 1;
-  border-image-width: 0.25rem;
+  border-image-width: 2px;
 
   animation: move 1s infinite var(--timing);
 
