@@ -65,7 +65,7 @@ h2 {
 
 animation: move 1s infinite var(--timing);
 
-&.fill {
+h2.fill {
   border-image-slice: 1 1 1 1 fill; /* Corrección: Se agregaron los cuatro valores */
   }
 }
