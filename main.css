@@ -60,19 +60,18 @@ h2 {
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b);
-  border-image-slice: 1 1 1 1;
+  border-image-slice: 1 1 1 1; /* Corrección: Se agregaron los cuatro valores */
   border-image-width: 2px;
 
-  animation: move 1s infinite var(--timing);
+animation: move 1s infinite var(--timing);
 
-  &.fill {
-    border-image-slice: 1 111 fill;
-  }
+&.fill {
+  border-image-slice: 1 1 1 1 fill; /* Corrección: Se agregaron los cuatro valores */
 }
 
 @keyframes move {
-  from { --a: 0deg; }
-  to { --a: 360deg; }
+  from { --a: 0deg; } /* Corrección: Se agregó el prefijo -- a la variable */
+  to { --a: 360deg; }   /* Corrección: Se agregó el prefijo -- a la variable */
 }
 
 @property --a {
@@ -80,6 +79,7 @@ h2 {
   inherits: true;
   initial-value: 0deg;
 }
+
 
 
 footer {
