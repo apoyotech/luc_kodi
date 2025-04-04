@@ -59,12 +59,18 @@ h2 {
   font-size: 20px;
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), #ff00ff, #00ff7f, #734f96);
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
   border-image-slice: 1 1 1 1;
   border-image-width: 3px;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  border-radius: 15px  
+  border: double 3px transparent;
   animation: move 1s infinite var(--timing);
 }
-  h2.fill {
+  
+
+h2.fill {
     border-image-slice: 1 1 1 1 fill;
   }
 
@@ -79,17 +85,9 @@ h2 {
   inherits: true;
   initial-value: 0deg;
 }
+  
+  
 
-
-rounded-corners-gradient-borders {
-  width: 300px;
-  height: 80px;
-  border: double 4px transparent;
-  border-radius: 80px;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
-  background-origin: border-box;
-  background-clip: padding-box, border-box;
-}
 
 
 
