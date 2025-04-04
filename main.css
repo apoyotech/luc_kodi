@@ -59,16 +59,15 @@ h2 {
   font-size: 20px;
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-source: conic-gradient(from var(--a), #9932cc, #27ae60, #1e90ff);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
-
   animation: move 1s infinite var(--timing);
-
-  &.fill {
+}
+  h2.fill {
     border-image-slice: 1 1 1 1 fill;
   }
-}
+
 
 @keyframes move {
   from { --a: 0deg; }
