@@ -59,7 +59,7 @@ h2 {
   font-size: 20px;
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
-  background-image: linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+  background-image:  radial-gradient(circle at top left, #f00,#3020ff);
   border-image-slice: 1 1 1 1;
   border-image-width: 3px;
   background-origin: border-box;
