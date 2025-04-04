@@ -58,32 +58,36 @@ h2 {
   overflow: auto;
   font-size: 20px;
   justify-content: center;
-  --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
-  border-image-slice: 1 1 1 1;
-  border-image-width: 3px;
-  border-radius: 15px;  
-  background-origin: border-box;
-  -webkit-background-clip: padding-box, border-box;
-  animation: move 1s infinite var(--timing);
-}
   
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 4px;
+  stroke: url('#logo-gradient');
+}
 
-h2.fill {
-    border-image-slice: 1 1 1 1 fill;
+
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 6px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
   }
 
 
-@keyframes move {
-  from { --a: 0deg; }
-  to { --a: 360deg; }
-}
 
-@property --a {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0deg;
-}
+  
+
+
+    
   
   
 
