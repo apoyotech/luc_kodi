@@ -67,8 +67,8 @@ animation: move 1s infinite var(--timing);
 
 &.fill {
   border-image-slice: 1 1 1 1 fill; /* Corrección: Se agregaron los cuatro valores */
+  }
 }
-
 @keyframes move {
   from { --a: 0deg; } /* Corrección: Se agregó el prefijo -- a la variable */
   to { --a: 360deg; }   /* Corrección: Se agregó el prefijo -- a la variable */
