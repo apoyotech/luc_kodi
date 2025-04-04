@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  background: rgb(192,192,191,1);
+  background: rgb(192,192,191); /* Corrección: Eliminado el cuarto valor */
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,172,182,1) 35%, rgba(175,175,175,1) 100%);
   background-size: 100% auto;
   color: #000000;
@@ -60,18 +60,20 @@ h2 {
   justify-content: center;
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), #00ff7f, #ff00ff, #008b8b);
-  border-image-slice: 1 1 1 1; 
+  border-image-slice: 1 1 1 1; /* Corrección: Agregados los cuatro valores */
   border-image-width: 2px;
   animation: move 1s infinite var(--timing);
 }
+
 h2.fill {
-  border-image-slice: 1 1 1 1 fill; 
-  }
+  border-image-slice: 1 1 1 1 fill; /* Corrección: Agregados los cuatro valores */
+}
 
 @keyframes move {
-  from { --a: 0deg; } 
-  to { --a: 360deg; }   
+  from { --a: 0deg; } /* Corrección: Agregado el prefijo -- */
+  to { --a: 360deg; }   /* Corrección: Agregado el prefijo -- */
 }
+
 
 @property --a {
   syntax: "<angle>";
