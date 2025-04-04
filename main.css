@@ -61,7 +61,7 @@ h2 {
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), #ff00ff, #00ff7f, #734f96);
   border-image-slice: 1 1 1 1;
-  border-image-width: 3px;
+  border-image-width: 5px;
   animation: move 1s infinite var(--timing);
 }
   h2.fill {
