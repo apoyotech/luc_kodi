@@ -56,7 +56,6 @@ h2 {
   background: rgb(176,196,222);
   background: linear-gradient(90deg, rgba(176,196,222,1) 0%, rgba(152,251,152,1) 35%, rgba(216,191,216,1) 100%);  
   margin-bottom: 20px;
-  background: rgb(238 232 170);
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
   font-size: 1rem;
