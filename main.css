@@ -113,7 +113,7 @@ animation: spin 1.5s linear infinite paused;
 
   border: 6px solid transparent;
 
-   &:hover {
+   h2:hover {
      animation-play-state: running;
    }
 }    
