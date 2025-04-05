@@ -22,7 +22,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
   border: 5px darkgoldenrod;
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   height: 40vh;
@@ -67,7 +67,7 @@ h2 {
   animation: move 1s infinite var(--timing);
 }
   
-&.fill {
+h2.fill {
     border-image-slice: 1 1 1 1 fill;
   }
 
