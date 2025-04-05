@@ -52,13 +52,13 @@ h1 {
 h2 {
  
  
-  background: #111;
+  background: rgb(238 232 170);
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
   font-size: 1rem;
   padding: 1rem 2rem;
   background: none;
-  color: #fff;
+  color: #000000;
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
