@@ -60,7 +60,7 @@ h2 {
   justify-content: center;
 
   
-  border-image-radius: 12px;
+  border-radius: 12px;
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
