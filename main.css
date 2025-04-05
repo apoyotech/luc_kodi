@@ -52,8 +52,8 @@ h1 {
 
 
 h2 {
-  background: rgb(152,251,152);
-  background: linear-gradient(90deg, rgba(152,251,152,1) 0%, rgba(144,238,144,1) 35%, rgba(152,251,152,1) 100%);   
+  background: rgb(245,222,179);
+  background: linear-gradient(90deg, rgba(245,222,179,1) 0%, rgba(255,228,196,1) 35%, rgba(255,239,213,1) 100%);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
