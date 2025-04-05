@@ -61,9 +61,13 @@ h2 {
   border-radius: 8px;
     
   --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink) 1;
   border-image-slice: 1 1 1 1;
-  border-image-width: 0.25rem;
+  --border-image-width: 0.25rem;
+  --radius: 3px;
+  border: var(--border-width) solid;
+  border-radius: var(--radius);
+  background-clip: padding-box;
   animation: move 1s infinite var(--timing);
 }
   
