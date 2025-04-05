@@ -104,9 +104,9 @@ animation: spin 1.5s linear infinite paused;
    h2:hover {
      animation-play-state: running;
    }
-}    
+    
 
-}
+
     
     
     
