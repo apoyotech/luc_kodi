@@ -22,7 +22,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
   border: 5px darkgoldenrod;
-  border-radius: 15px;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   height: 40vh;
@@ -58,7 +58,9 @@ h2 {
   overflow: auto;
   font-size: 20px;
   justify-content: center;
-  
+  border-radius: 8px;
+    
+  --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
