@@ -59,28 +59,27 @@ h2 {
   font-size: 20px;
   justify-content: center;
   
-  -webkit-animation: 0.5s draw linear forwards;
-  animation: 0.5s draw linear forwards;
-  fill: transparent;
-  stroke-dasharray: 140 540;
-  stroke-dashoffset: -474;
-  stroke-width: 4px;
-  stroke: url('#logo-gradient');
+  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
+  animation: move 1s infinite var(--timing);
+}
+  
+&.fill {
+    border-image-slice: 1 1 1 1 fill;
+  }
+
+
+@keyframes move {
+  from { --a: 0deg; }
+  to { --a: 360deg; }
 }
 
-
-
-@keyframes draw {
-  0% {
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
-    stroke-width: 6px;
-  }
-  100% {
-    stroke-dasharray: 760;
-    stroke-dashoffset: 0;
-    stroke-width: 2px;
-  }
+@property --a {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
 
 
 
