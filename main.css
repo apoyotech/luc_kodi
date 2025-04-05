@@ -9,10 +9,12 @@ html, body {
     color: #000000;
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
-    margin: 0;
+    margin: auto;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    height: 100%;
 }
 
 header {
@@ -49,44 +51,38 @@ h1 {
 
 
 h2 {
-  --timing: linear(0, 0.3, 0.75, 1);
+ 
   font-family: Jost, sans-serif;
-  font-size: 1rem;
-  padding: 1rem 2rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a), rgb(102 51 153), rgb(34 139 34), rgb(218 165 32), rgb(255 0 255);
-  border-image-slice: 1 1 1 1;
-  border-image-width: 0.25rem;
-  animation: move 1s infinite var(--timing);
-  margin-bottom: 20px;
-  display: flex;
-  background: rgb(192,192,192);
-  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(169,172,182,1) 35%, rgba(175,175,175,1) 100%);
-  background-repeat: no-repeat;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-}
   
+  display: flex;
+  align-items: center;
+  //width: 50vw;
+  width: 90%;
+  margin: auto;
+  max-width: 22em;
 
+  position: relative;
+  padding: 30% 2em;
+  box-sizing: border-box;
+  
+  $border: 5px;
+  color: #FFF;
+  background: #000;
+  background-clip: padding-box; /* !importanté */
+  border: solid $border transparent; /* !importanté */
+  border-radius: 1em;
 
-h2.fill {
-    border-image-slice: 1 1 1 1 fill;
+    &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to right, red, orange);
   }
-
-
-@keyframes move {
-  from { --a: 0deg; }
-  to { --a: 360deg; }
 }
-
-@property --a {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0deg;
-}
-
     
 
     
