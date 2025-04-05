@@ -60,13 +60,13 @@ h2 {
   justify-content: center;
 
   
-  border-radius: 12px;
+  
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), indigo, fuchsia, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 3px;
   animation: move 1s infinite var(--timing);
-  border: var(border-radius) solid;
+  border: var(border-width) solid;
 }
     
 h2.fill {
