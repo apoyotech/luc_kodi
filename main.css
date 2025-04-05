@@ -59,12 +59,12 @@ h2 {
   font-size: 20px;
   justify-content: center;
 
-  border-width: 3px;
-  border-radius: 12px;
+  
+  border-image-radius: 12px;
   --timing: linear(0, 0.3, 0.75, 1);
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
-  border-image-width: 0.25rem;
+  border-image-width: 3px;
   animation: move 1s infinite var(--timing);
 }
     
