@@ -51,39 +51,36 @@ h1 {
 
 h2 {
  
+ 
+  background: #111;
+  --timing: linear(0, 0.3, 0.75, 1);
   font-family: Jost, sans-serif;
-  color: #000000;
-  
-  
-  align-items: center;
-  //width: 50vw;
-  width: 90%;
-  margin: auto;
-  max-width: 22em;
-
-  position: relative;
-  padding: 30% 2em;
-  box-sizing: border-box;
-  
-  $border: 5px;
-  color: #FFF;
-  background: #000;
-  background-clip: padding-box; 
-  border: solid $border transparent; 
-  border-radius: 1em;
-
-    &:before {
-    content: '';
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -1;
-    margin: -$border; 
-    border-radius: inherit; 
-    background: linear-gradient(to right, red, orange);
-  }
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  background: none;
+  color: #fff;
+  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
+  animation: move 1s infinite var(--timing);
 }
+  
     
+h2.fill {
+    border-image-slice: 1 1 1 1 fill;
+  }
 
+
+@keyframes move {
+  from { --a: 0deg; }
+  to { --a: 360deg; }
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
     
 
 
