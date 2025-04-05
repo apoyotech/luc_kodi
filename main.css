@@ -43,67 +43,46 @@ h1 {
     -webkit-background-clip: text;    
 }
 
-h2 {
+
   
  
-  background: radial-gradient(
-      circle,
-      oklch(0.15 0.2 330 / 0),
-      oklch(0.15 0.2 330 / 1)
-    ), linear-gradient(344deg in oklch, oklch(0.3 0.37 310), oklch(0.35 0.37 330), oklch(0.3
-          0.37 310));
-  display: grid;
-  height: 100svh;
-  place-items: center;
-}
-    
-article {
-  border-radius: 1rem;
-  box-shadow: 0.125rem 0.25rem 0.25rem 0.5rem oklch(0.1 0.37 315 / 0.25);
-  color: white;
-  padding: 1rem;
-  width: min(400px, 90vw);
 
-  & hover {
-    line-height: 1.1;
-    margin: 0;
+
+h2 {
+  --timing: linear(0, 0.3, 0.75, 1);
+
+  font-family: Jost, sans-serif;
+  font-size: 1rem;
+
+  padding: 1rem 2rem;
+  background: none;
+  color: #fff;
+
+  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
+
+  animation: move 1s infinite var(--timing);
+}
+  
+h2.fill {
+    border-image-slice: 1 1 1 1 fill;
   }
 
- 
-  
-    
-    
-@property --bg-angle {
-   inherits: false;
-   initial-value: 0deg;
-   syntax: "<angle>";
- }
 
- @keyframes spin {
-   to {
-     --bg-angle: 180deg;
-   }
- }
+@keyframes move {
+  from { --a: 0deg; }
+  to { --a: 360deg; }
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
     
-animation: spin 1.5s linear infinite paused;
-  background: linear-gradient(
-        to bottom,
-        oklch(0.1 0.2 240 / 0.95),
-        oklch(0.1 0.2 240 / 0.95)
-      )
-      padding-box,
-    conic-gradient(
-         from 0deg in oklch longer hue,
-         from var(--bg-angle) in oklch longer hue,
-        oklch(1 0.37 0) 0 0
-      )
-      border-box;
 
-  border: 6px solid transparent;
-
-   &:hover {
-     animation-play-state: running;
-   }
     
 
 
