@@ -68,8 +68,9 @@ h2 {
   animation-play-state: running;
   --timing: linear(0, 0.3, 0.75, 1);
   animation: move 1s infinite var(--timing);
+  border-image-slice: 1 1 1 1;
 }
-  
+
 h2.fill {
     border-image-slice: 1 1 1 1 fill;
 }
