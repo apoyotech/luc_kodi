@@ -54,7 +54,7 @@ h2 {
   font-size: 1rem;
   padding: 1rem 2rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
+  border-image-source: conic-gradient(from var(--a), rgb(102 51 153), rgb(34 139 34), rgb(218 165 32), rgb(255 0 255);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
