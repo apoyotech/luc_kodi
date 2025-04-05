@@ -82,6 +82,44 @@ article {
   }
 
  
+  
+    
+    
+@property --bg-angle {
+   inherits: false;
+   initial-value: 0deg;
+   syntax: "<angle>";
+ }
+
+ @keyframes spin {
+   to {
+     --bg-angle: 180deg;
+   }
+ }
+    
+animation: spin 1.5s linear infinite paused;
+  background: linear-gradient(
+        to bottom,
+        oklch(0.1 0.2 240 / 0.95),
+        oklch(0.1 0.2 240 / 0.95)
+      )
+      padding-box,
+    conic-gradient(
+         from 0deg in oklch longer hue,
+         from var(--bg-angle) in oklch longer hue,
+        oklch(1 0.37 0) 0 0
+      )
+      border-box;
+
+  border: 6px solid transparent;
+
+   &:hover {
+     animation-play-state: running;
+   }
+}    
+    
+    
+    
     
     
     
