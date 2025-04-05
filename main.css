@@ -58,45 +58,7 @@ h2 {
   overflow: auto;
   font-size: 20px;
   justify-content: center;
-  
-  --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
-  border-image-slice: 1 1 1 1;
-  border-image-width: 3px;
-  animation: move 1s infinite var(--timing);
 }
-  
-h2.fill {
-    border-image-slice: 1 1 1 1 fill;
-  }
-
-
-@keyframes move {
-  from { --a: 0deg; }
-  to { --a: 360deg; }
-}
-
-@property --a {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0deg;
-}
-    
-  
-
-
-
-  
-
-
-    
-  
-  
-
-
-
-
-
 
 footer {
    margin-top: 100px;
