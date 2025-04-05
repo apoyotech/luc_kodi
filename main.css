@@ -59,14 +59,11 @@ h2 {
   font-size: 20px;
   justify-content: center;
 
-  
-  
-  --timing: linear(0, 0.3, 0.75, 1);
-  border-image-source: conic-gradient(from var(--a), indigo, fuchsia, hotpink);
+  border-image-source: conic-gradient(from var(--a), indigo, mediumspringgreen, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 3px;
-  animation: move 1s infinite var(--timing);
-  border: var(border-width) solid;
+  animation: move 1s infinite var(--timing);  
+  --timing: linear(0, 0.3, 0.75, 1);  
 }
     
 h2.fill {
@@ -91,7 +88,7 @@ h2.fill {
     
     
     
-    footer {
+footer {
    margin-top: 100px;
    margin-bottom: 5px;
    float: right;
