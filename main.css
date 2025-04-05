@@ -50,21 +50,20 @@ h1 {
 
 h2 {
   --timing: linear(0, 0.3, 0.75, 1);
-
   font-family: Jost, sans-serif;
   font-size: 1rem;
-
   padding: 1rem 2rem;
   background: none;
   color: #000000;
-
   border-image-source: conic-gradient(from var(--a), indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
-
   animation: move 1s infinite var(--timing);
+  border-radius: 12px;
 }
   
+
+
 h2.fill {
     border-image-slice: 1 1 1 1 fill;
   }
