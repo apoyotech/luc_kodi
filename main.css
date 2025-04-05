@@ -22,18 +22,21 @@ header {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  border: 5px solid darkgoldenrod;
   display: flex;
   flex-direction: column;
   height: 40vh;
   justify-content: center;
   min-height: 250px;
-  padding: 0 20px;
+  padding: 1rem 2rem;
   position: relative;
   text-align: center;
   margin-bottom: 20px;
   font-size: 25px;
-  
+  text-decoration: inherit;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 h1 {
