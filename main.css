@@ -44,19 +44,7 @@ h1 {
 }
 
 h2 {
-  background: rgb(192,192,191);
-  background-size: 100% auto;
-  color: #000000;
-  flex-direction: column;
-  height: auto;
-  min-height: 250px;
-  padding: 0 20px;
-  position: relative;
-  margin-bottom: 20px;
-  overflow: auto;
-  font-size: 20px;
-  justify-content: center;
-
+  
  
   background: radial-gradient(
       circle,
