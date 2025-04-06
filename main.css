@@ -53,32 +53,6 @@ h2 {
   background: rgb(192,192,192);
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
   margin-bottom: 20px;
-  --timing: linear(0, 0.3, 0.75, 1);
-  font-family: Jost, sans-serif;
-  font-size: 1rem;
-  padding: 1rem 2rem;
-  color: #000000;
-  border-image-source: conic-gradient(from var(--a), violet, fuchsia, hotpink);
-  border-image-slice: 1 1 1 1;
-  border-image-width: 0.25rem;
-  animation: move 1s infinite var(--timing);
-}
-  
-    
-h2.fill {
-    border-image-slice: 1 1 1 1 fill;
-  }
-
-
-@keyframes move {
-  from { --a: 0deg; }
-  to { --a: 360deg; }
-}
-
-@property --a {
-  syntax: "<angle>";
-  inherits: true;
-  initial-value: 0deg;
 }
     
 
