@@ -58,7 +58,7 @@ h2 {
   font-size: 1rem;
   padding: 1rem 2rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a), red, orange, blue);
+  border-image-source: conic-gradient(from var(--a), violet, fuchsia, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
