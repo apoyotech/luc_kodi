@@ -30,13 +30,13 @@ html, body {
   border-radius: 15px;
   background-origin: border-box;
   background-clip: content-box ,border-box;
-  align-items: center;
-  text-align: center;
+ }
+  
  
-     &.fill {
+     header.fill {
    border-image-slice: 1 1 1 1 fill;
     }
- } 
+  
 
 
 
@@ -46,7 +46,7 @@ html, body {
 h1 {
       font-size: 30px;
       font-weight: bold;
-      background: linear-gradient(to right, red, orange);
+      background: linear-gradient(to right, red, orange, violet);
       background-clip: text;
      -webkit-background-clip: text;
       color: transparent;
