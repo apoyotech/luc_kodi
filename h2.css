@@ -1,0 +1,24 @@
+h2 {
+            position: relative; /* Necessary for positioning the pseudo-element */
+            width: 200px;
+            height: 150px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            overflow: hidden; 
+        }
+
+        h2::before {
+            content: "";
+            position: absolute;
+            top: -5px; 
+            left: -5px; 
+            right: -5px; 
+            bottom: -5px; 
+            background: linear-gradient(to right, green, yellow);
+            border-radius: inherit; 
+            z-index: -1; 
+        }
+    
+  
+   
