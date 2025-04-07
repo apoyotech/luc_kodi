@@ -30,7 +30,7 @@ html, body {
  
   width: 200px;
   height: 150px;
-  padding: 20px
+  padding: 20px;
   border: 15px solid transparent;
   border-radius: 15px;
   background-origin: border-box;
