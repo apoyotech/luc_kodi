@@ -27,11 +27,10 @@ html, body {
   border-image-source: linear-gradient(indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
-  justify-content: center;
   min-height: 200px;
   height: 20vh;
   padding: 1rem 2rem;
-  border: 15px solid transparent;
+  border: 15px solid;
   border-radius: 15px;
   background-origin: border-box;
   background-clip: content-box ,border-box;
