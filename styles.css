@@ -21,18 +21,31 @@ html, body {
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   justify-content: center;
-  padding: 1rem 2rem;
   position: relative;
   text-align: center;
   margin-bottom: 20px;
   border-image-source: linear-gradient(indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
+ 
+  width: 200px;
+  height: 150px;
+  padding: 20px
+  border: 15px solid transparent;
+  border-radius: 15px;
+  background-origin: border-box;
+  background-clip: content-box ,border-box;
+ 
+ 
  }
      header.fill {
    border-image-slice: 1 1 1 1 fill;
     }
  
+
+
+
+
 
 
 h1 {
