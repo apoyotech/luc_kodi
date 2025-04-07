@@ -24,12 +24,13 @@ html, body {
   margin-bottom: 20px;
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
-  min-height: 200px;
+  min-height: 150px;
   height: 20vh;
-  border: 5px solid darkgoldenrod;
+  border: 5px solid;
   border-radius: 15px;
   background-origin: border-box;
   background-clip: content-box ,border-box;
+ -webkit-backgroubd-clip: content-box, border-box;
  }
   
  
@@ -46,7 +47,7 @@ html, body {
 h1 {
       font-size: 30px;
       font-weight: bold;
-      background: linear-gradient(to right, red, orange, violet);
+      background: linear-gradient(to right, orange, fuchsia );
       background-clip: text;
      -webkit-background-clip: text;
       color: transparent;
