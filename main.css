@@ -36,15 +36,14 @@ html, body {
 
 
 h1 {
-     text-gradient-lineal {
-      font-size: 25px;
+     font-size: 25px;
       font-weight: bold;
       color: transparent;
       background-linear: (to right, #ff00ff, #e49b0f);
       background-cilp: text;
      -webkit-background-clip: text;
     }
-}
+
 
 h2 {
   background: rgb(192,192,192);
