@@ -57,9 +57,32 @@ h1 {
 
 
 h2 {
-  background: rgb(192,192,192);
-  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
-  margin-bottom: 20px;
+ 
+  
+
+         .h2 {background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%)}
+         .h2 {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .h2:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+
+
 }
     
 
