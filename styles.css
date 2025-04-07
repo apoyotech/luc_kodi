@@ -22,7 +22,7 @@ html, body {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   position: relative;
   margin-bottom: 20px;
-  border-image-source: linear-gradient(90deg, red, blue);
+  border-image-source: linear-gradient(to left, red, blue);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   min-height: 200px;
@@ -32,7 +32,8 @@ html, body {
   background-origin: border-box;
   background-clip: content-box ,border-box;
   color: transparent; 
- 
+  align-items: center
+
  }
      header.fill {
    border-image-slice: 1 1 1 1 fill;
@@ -52,7 +53,7 @@ h1 {
      -webkit-background-clip: text;
       color: transparent;
       text-align: center;
-      align-items: center;
+      
 }
 
 
