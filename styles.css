@@ -22,7 +22,7 @@ html, body {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   position: relative;
   margin-bottom: 20px;
-  border-image-source: linear-gradient(indigo, purple, hotpink), linear-gradient(indigo, purple, hotpink);
+  border-image-source: darkgoldenrod;
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   min-height: 200px;
