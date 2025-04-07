@@ -54,6 +54,11 @@ h2 {
  -webkit-backgroubd-clip: content-box, border-box;
 }
 
+h2.fill {
+    border-image-slice: 1 1 1 1 fill;
+}
+
+
 
 
 h1 {
