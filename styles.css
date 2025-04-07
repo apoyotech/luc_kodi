@@ -32,9 +32,10 @@ html, body {
   background-origin: border-box;
   background-clip: content-box ,border-box;
   align-items: center;
-  
+  text-align: center;
  }
-     header.fill {
+     
+header.fill {
    border-image-slice: 1 1 1 1 fill;
     }
  
