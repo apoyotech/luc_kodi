@@ -24,7 +24,7 @@ html, body {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
-  border-image-source: linear-gradient(indigo, purple, hotpink);
+  border-image-source: linear-gradient(to right, indigo, purple, hotpink), linear-gradient(to right, indigo, purple, hotpink);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   min-height: 200px;
