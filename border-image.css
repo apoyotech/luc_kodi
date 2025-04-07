@@ -1,4 +1,4 @@
-.media-object {
+h1 h2 {
   --border-width: 1px;
   --radius: 24px;
   border: var(--border-width) solid;
@@ -8,9 +8,7 @@
   animation: spin 3s linear infinite paused;
 }
 
-.media-object:hover {
-  animation-play-state: running;
-}
+
 
 /* Use CSS @supports for non-Houdini browsers to ensure gradient display without animation. */
 @supports not (background: paint(something)) {
