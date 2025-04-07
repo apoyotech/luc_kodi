@@ -8,7 +8,7 @@ html, body {
     background: rgb(229,228,226);
     color: #000000;
     font-family:'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     margin: auto;
     padding-top: 20px;
     padding-left: 20px;
@@ -20,14 +20,8 @@ html, body {
   align-items: center;
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
   border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
   justify-content: center;
-  min-height: 250px;
   padding: 1rem 2rem;
   position: relative;
   text-align: center;
