@@ -47,11 +47,12 @@ html, body {
 h1 {
       font-size: 30px;
       font-weight: bold;
-      background: linear-gradient(to right, #ff00ff, #e49b0f);
+      background: linear-gradient(to right, red, orange);
       background-clip: text;
      -webkit-background-clip: text;
       color: transparent;
       text-align: center;
+      align-item: center;
 }
 
 
