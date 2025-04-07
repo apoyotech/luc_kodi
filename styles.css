@@ -26,14 +26,15 @@ html, body {
   position: relative;
   text-align: center;
   margin-bottom: 20px;
-  font-size: 25px;
-  text-decoration: inherit;
-  border: 10px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-  border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
   height: 100%;
+  border-image-source: linear-gradient(indigo, purple, hotpink);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
  }
+     header.fill {
+   border-image-slice: 1 1 1 1 fill;
+    }
+ 
 
 
 h1 {
