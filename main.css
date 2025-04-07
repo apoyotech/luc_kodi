@@ -1,0 +1,104 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html, body {
+    background: rgb(229,228,226);
+    color: #000000;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    
+}
+
+header {
+  align-items: center;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: center;
+  min-height: 150px;
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-decoration: inherit;
+  border: 10px solid;
+  border-image-slice: 1 1 1 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
+  border-radius: inherit;
+  background-origin: border-box;
+  background-clip: content-box ,border-box;
+ -webkit-backgroubd-clip: content-box, border-box;
+ -webkit-background-fill-color: trasparent;
+}
+  
+ 
+     header.fill {
+   border-image-slice: 1 1 1 1 fill;
+     }
+
+
+h1 {
+    background-image: linear-gradient(to right, #ff00ff, #e49b0f);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;    
+}
+
+img {
+    width: 426px; 
+    height: auto;
+    border: 3px solid darkgoldenrod;
+    border-radius: 15px;
+ }
+
+h2 {
+  background: rgb(192,192,192);
+  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
+  margin-bottom: 20px;
+  --timing: linear(0, 0.3, 0.75, 1);
+  font-family: Jost, sans-serif;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  color: #000000;
+  border-image-source: conic-gradient(from var(--a),mediumspringgreen, violet, dodgerblue, hotpink);
+  border-image-slice: 1 1 1 1;
+  border-image-width: 0.25rem;
+  animation: move 1s infinite var(--timing);
+}
+  h2.fill {
+    border-image-slice: 1 1 1 1 fill;
+  }
+
+
+@keyframes move {
+  from { --a: 0deg; }
+  to { --a: 360deg; }
+}
+
+@property --a {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+    
+
+
+
+
+
+
+
+
