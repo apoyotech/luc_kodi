@@ -1,5 +1,5 @@
 h2 {
-            position: relative; /* Necessary for positioning the pseudo-element */
+            position: relative; 
             width: 200px;
             height: 150px;
             padding: 20px;
