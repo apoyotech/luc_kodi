@@ -69,8 +69,8 @@ h2 {
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
-  font-family: Jost, sans-serif;
-  font-size: 1rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
   padding: 1rem 2rem;
   color: #000000;
   border-image-source: conic-gradient(from var(--a),indigo, purple, hotpink);
