@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 html, body {
-    background: rgb(229,228,226);
+    background: rgb(175,175,175);
     color: #000000;
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
@@ -29,15 +29,10 @@ header {
   text-align: center;
   margin-bottom: 20px;
   font-size: 25px;
-  text-decoration: inherit;
-  border: 15px;
-  border-image-slice: 1 1 1 1;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
   border-radius: inherit;
-  background-origin: border-box;
-  background-clip: border-box;
- -webkit-backgroubd-clip: border-box;
+  padding: 1rem 2rem;
  
 }
   
