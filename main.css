@@ -32,7 +32,7 @@ header {
   margin-bottom: 20px;
   font-size: 25px;
   text-decoration: inherit;
-  border: 10px solid;
+  border: 15px;
   border-image-slice: 1 1 1 1;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
