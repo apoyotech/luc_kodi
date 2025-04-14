@@ -18,26 +18,21 @@ header {
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 20vh;
+  height: 15vh;
   justify-content: center;
-  min-height: 150px;
+  min-height: 100px;
   text-align: center;
   position: relative;
   display: flex;  
   flex-direction: column; 
   margin-bottom: 20px;
   font-size: 25px;
-  border-width: 5px;
-  border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
-  border-image-slice: 1 1 1 1;
   padding: 1rem 2rem;
  
 }
   
  
-     header.fill {
-   border-image-slice: 1 1 1 1 fill;
-     }
+    
 
 
 h1 {
@@ -85,9 +80,9 @@ h2 {
 }
     
 
-
-
-
+footer { 
+  margin-bottom: 30px;
+}
 
 
 
