@@ -29,7 +29,7 @@ header {
   font-size: 25px;
   border-width: 5px;
   border-image-source: linear-gradient(to right, #ff00ff, #e49b0f);
-  border-radius: inherit;
+  border-image-slice: 1 1 1 1;
   padding: 1rem 2rem;
  
 }
