@@ -23,6 +23,9 @@ header {
   justify-content: center;
   min-height: 150px;
   text-align: center;
+  position: relative;
+  display: flex;  
+  flex-direction: column; 
   margin-bottom: 20px;
   font-size: 25px;
   border-width: 5px;
