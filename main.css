@@ -11,7 +11,7 @@ html, body {
 
   
 .btn {
-  --border-color: linear-gradient(-135deg,indigo, purple, #355e3b);
+  --border-color: linear-gradient(-45deg,indigo, purple, #ffd700);
   --border-width: 0.25rem;
   --curve-size: 0.5em;
   --blur: 30px;
