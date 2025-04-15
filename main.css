@@ -1,7 +1,7 @@
 
 
 html, body {
-    background: rgb(135, 134, 129);
+    background: rgb(192, 192, 192);
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
@@ -15,7 +15,7 @@ html, body {
   --border-width: 0.25rem;
   --curve-size: 0.5em;
   --blur: 30px;
-  --bg: rgb(135, 134, 129);
+  --bg: rgb(192, 192, 192);
   --color: #afffff;
   color: var(--color);
   cursor: pointer;
@@ -129,7 +129,7 @@ h1 {
 
 
 h2 {
-  background: rgb(135, 134, 129);
+  background: rgb(192,192,192);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: 'Jost', sans-serif;
