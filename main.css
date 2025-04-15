@@ -27,8 +27,6 @@ html, body {
   place-content: center;
   font-size: 17px;
   border: 0;
-  height: auto;
-  width: auto;
   margin-top: 20px; 
   margin-bottom: 20px; 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
