@@ -15,7 +15,7 @@ html, body {
   --border-width: 0.125em;
   --curve-size: 0.5em;
   --blur: 30px;
-  --bg: #080312;
+  --bg: rgb(85, 85, 85);
   --color: #afffff;
   color: var(--color);
   cursor: pointer;
