@@ -103,9 +103,10 @@ html, body {
   user-select: none;
   z-index: 2;
   transition: all 0.12s ease;
+  color: rgb(228, 155, 15);
 }
 
-/* Hover эффекты */
+
 .cart-button:hover {
   transform: translateY(-2px);
 }
@@ -131,7 +132,7 @@ html, body {
   opacity: 1;
 }
 
-/* Active эффекты */
+
 .cart-button:active {
   transform: translateY(3px) scale(0.95);
   transition: transform 0.08s cubic-bezier(0.4, 0, 0.2, 1);
@@ -160,7 +161,7 @@ html, body {
   transition: all 0.08s ease;
 }
 
-/* Focus эффекты */
+
 .cart-button:active {
   outline: none;
 }
