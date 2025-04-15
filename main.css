@@ -4,7 +4,7 @@ html, body {
     background: rgb(139, 139, 139);
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -119,7 +119,7 @@ html, body {
 
 
 h1 {
-    font-size: 22px;
+    font-size: 25px;
     background-image: linear-gradient(to right, #8b008b, #e49b0f);
     background-clip: text;
     -webkit-text-fill-color: transparent;
