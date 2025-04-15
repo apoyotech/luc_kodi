@@ -10,106 +10,61 @@ html, body {
 }
 
   
-.btn {
-  --border-color: linear-gradient(-45deg,indigo, purple, #ffd700);
-  --border-width: 0.25rem;
-  --curve-size: 0.5em;
-  --blur: 30px;
-  --bg: rgb(192, 192, 192);
-  --color: #afffff;
-  color: var(--color);
-  cursor: pointer;
-  /* use position: relative; so that BG is only for .btn */
-  position: relative;
-  isolation: isolate;
-  display: flex;
-  flex-direction: column;
-  place-content: center;
-  padding: 0.5em 1.5em;
+ 
+.button {
   width: 100%;
-  height: 90px;
-  border: 0;
-  margin-top: 20px; 
-  margin-bottom: 20px; 
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
-  clip-path: polygon(
-    /* Top-left */ 0% var(--curve-size),
-    var(--curve-size) 0,
-    /* top-right */ 100% 0,
-    100% calc(100% - var(--curve-size)),
-    /* bottom-right 1 */ calc(100% - var(--curve-size)) 100%,
-    /* bottom-right 2 */ 0 100%
-  );
-  transition: color 250ms;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+  transition-duration: .2s;
+  background: linear-gradient(0deg, #000, #272727);
 }
 
-.btn::after,
-.btn::before {
-  content: "";
+.button:before, .button:after {
+  content: '';
   position: absolute;
-  inset: 0;
+  left: -2px;
+  top: -2px;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
 }
 
-.btn::before {
-  background: var(--border-color);
-  background-size: 300% 300%;
-  animation: move-bg7234 5s ease infinite;
-  z-index: -2;
-}
-
-@keyframes move-bg7234 {
+@keyframes steam {
   0% {
-    background-position: 31% 0%;
+    background-position: 0 0;
   }
 
   50% {
-    background-position: 70% 100%;
+    background-position: 400% 0;
   }
 
   100% {
-    background-position: 31% 0%;
+    background-position: 0 0;
   }
 }
 
-.btn::after {
-  background: var(--bg);
-  z-index: -1;
-  clip-path: polygon(
-    /* Top-left */ var(--border-width)
-      calc(var(--curve-size) + var(--border-width) * 0.5),
-    calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
-    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
-    calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-    /* bottom-right 1 */
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width)),
-    /* bottom-right 2 */ var(--border-width) calc(100% - var(--border-width))
-  );
-  transition: clip-path 500ms;
+.button:after {
+  filter: blur(50px);
 }
 
-.btn:where(:hover, :focus)::after {
-  clip-path: polygon(
-    /* Top-left */ calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-    calc(100% - var(--border-width)) var(--border-width),
-    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
-    calc(100% - var(--border-width))
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
-    /* bottom-right 1 */
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width)),
-    /* bottom-right 2 */
-      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
-      calc(100% - var(--border-width))
-  );
-  transition: 200ms;
-}
 
-.btn:where(:hover, :focus) {
-  color: #fff;
-}
+
 
 
 
