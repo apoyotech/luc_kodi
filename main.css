@@ -36,8 +36,6 @@ html, body {
   left: -4px;
   top: -1px;
   margin: auto;
-  width: 128px;
-  height: 48px;
   border-radius: 10px;
   background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );
   z-index: -10;
