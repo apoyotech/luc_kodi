@@ -13,7 +13,7 @@ html, body {
 .btn {
   --border-color: linear-gradient(-45deg,indigo, purple, hotpink);
   --border-width: 0.25rem;
-  --curve-size: 0.5em;
+  --curve-size: 0.10em;
   --blur: 30px;
   --bg: rgb(139, 139, 139);
   --color: #afffff;
@@ -26,7 +26,6 @@ html, body {
   flex-direction: column;
   place-content: center;
   width: 100%;
-  min-width: 300px;
   height: 100px;
   border: 0;
   margin-top: 20px; 
