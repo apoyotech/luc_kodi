@@ -120,7 +120,7 @@ html, body {
 
 
 h1 {
-    background-image: linear-gradient(to right, #ff00ff, #e49b0f);
+    background-image: linear-gradient(to right, #8b008b, #0f52ba);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;    
