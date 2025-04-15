@@ -11,7 +11,7 @@ html, body {
 
   
 .btn {
-  --border-color: linear-gradient(-45deg,indigo, purple, #355e3b);
+  --border-color: linear-gradient(-90deg,indigo, purple, #355e3b);
   --border-width: 0.25rem;
   --curve-size: 0.5em;
   --blur: 30px;
@@ -135,7 +135,7 @@ h2 {
   font-family: 'Jost', sans-serif;
   font-size: 1rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a),indigo, purple, hotpink);
+  border-image-source: conic-gradient(from var(--a),indigo, purple, #355e3b);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
