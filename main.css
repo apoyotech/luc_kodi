@@ -11,7 +11,7 @@ html, body {
 
   
 .btn {
-  --border-color: linear-gradient(-45deg, indigo, purple, hotpink);
+  --border-color: linear-gradient(-45deg,indigo, purple, hotpink);
   --border-width: 0.125em;
   --curve-size: 0.5em;
   --blur: 30px;
@@ -28,6 +28,7 @@ html, body {
   font-size: 30px;
   width: 100%;
   min-width: 300px;
+  height: 200px;
   border: 0;
   margin-top: 20px; 
   margin-bottom: 20px; 
@@ -120,7 +121,7 @@ html, body {
 
 h1 {
     font-size: 22px;
-    background-image: linear-gradient(to right, #8b008b, #0f52ba);
+    background-image: linear-gradient(to right, #8b008b, #e49b0f);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;    
