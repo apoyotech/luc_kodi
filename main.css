@@ -1,7 +1,7 @@
 
 
 html, body {
-    background: #212121;
+    background: rgb(105, 105, 105);
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -15,7 +15,7 @@ html, body {
   --border-width: 0.125em;
   --curve-size: 0.5em;
   --blur: 30px;
-  --bg: rgb(105, 105, 105);
+  --bg: #212121;
   --color: #afffff;
   color: var(--color);
   cursor: pointer;
@@ -133,8 +133,7 @@ img {
  }
 
 h2 {
-  background: rgb(192,192,192);
-  background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(192,192,192,1) 50%, rgba(192,192,192,1) 100%);
+  background: rgb(105, 105, 105);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: 'Jost', sans-serif;
