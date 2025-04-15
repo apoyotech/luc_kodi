@@ -27,9 +27,9 @@ html, body {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%; 
-  heigth: auto  
+  heigth: auto;  
     
-    transform-style: preserve-3d;
+  transform-style: preserve-3d;
   isolation: isolate;
 }
 
