@@ -135,7 +135,7 @@ h2 {
   font-family: 'Jost', sans-serif;
   font-size: 1rem;
   color: #000000;
-  border-image-source: conic-gradient(from var(--a),indigo, purple, #355e3b);
+  border-image-source: conic-gradient(from var(--a),indigo, purple, #ffd700);
   border-image-slice: 1 1 1 1;
   border-image-width: 0.25rem;
   animation: move 1s infinite var(--timing);
