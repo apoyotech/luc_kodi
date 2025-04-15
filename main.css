@@ -27,7 +27,7 @@ html, body {
   padding: 0.5em 1.5em;
   font-size: 17px;
   border: 0;
-  text-transform: uppercase;
+  height: 15vh;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   clip-path: polygon(
     /* Top-left */ 0% var(--curve-size),
