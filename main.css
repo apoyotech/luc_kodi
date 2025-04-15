@@ -5,11 +5,9 @@ html, body {
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    padding-top: 20px;
+    margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: auto;
-    height: 100%;
 }
 
 header {
