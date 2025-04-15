@@ -1,7 +1,7 @@
 
 
 html, body {
-    background: rgb(105, 105, 105);
+    background: rgb(139, 139, 139);
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -133,7 +133,7 @@ img {
  }
 
 h2 {
-  background: rgb(105, 105, 105);
+  background: rgb(139, 139, 139);
   margin-bottom: 20px;
   --timing: linear(0, 0.3, 0.75, 1);
   font-family: 'Jost', sans-serif;
