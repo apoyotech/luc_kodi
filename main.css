@@ -27,7 +27,7 @@ html, body {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 100%; 
-  heigth: auto;  
+  height: auto;  
     
   transform-style: preserve-3d;
   isolation: isolate;
@@ -183,7 +183,7 @@ html, body {
   margin-top: 20px;
   margin-bottom: 20px; 
   width: 100%;   
-  heigth: auto;
+  height: auto;
   font-size: 1rem;
   background-image: linear-gradient(
     to right bottom,
