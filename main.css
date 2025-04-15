@@ -28,8 +28,8 @@ html, body {
   padding: 0.5em 1.5em;
   font-size: 17px;
   border: 0;
-  height: 10vh;
-  min-height: 80px;
+  height: 200px;
+  width: 800px;
   margin-top: 20px; 
   margin-bottom: 20px; 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
