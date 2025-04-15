@@ -119,6 +119,7 @@ html, body {
 
 
 h1 {
+    font-size: 22px;
     background-image: linear-gradient(to right, #8b008b, #0f52ba);
     background-clip: text;
     -webkit-text-fill-color: transparent;
