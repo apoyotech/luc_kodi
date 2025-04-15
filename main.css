@@ -28,7 +28,7 @@ html, body {
   padding: 0.5em 1.5em;
   font-size: 17px;
   border: 0;
-  height: 200px;
+  height: auto;
   width: 800px;
   margin-top: 20px; 
   margin-bottom: 20px; 
