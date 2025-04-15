@@ -169,7 +169,7 @@ html, body {
 
 
  
-.h2 {
+.button {
   --color-1: #e5fb6a;
   --color-2: #2bf46e;
   --color-1-shadow: #e5fb6a23;
@@ -196,17 +196,17 @@ html, body {
   transition: all 0.3s cubic-bezier(0.6, 0.12, 0.39, 0.83);
 }
 
-.h2:hover,
-.h2:active,
-.h2:focus,
-.h2:focus-visible,
-.h2:focus-within {
+.button:hover,
+.button:active,
+.button:focus,
+.button:focus-visible,
+.button:focus-within {
   box-shadow:
     -4px -4px 32px 4px var(--color-1-shadow-focus),
     4px 4px 32px 4px var(--color-2-shadow-focus);
 }
 
-.h2:hover {
+.button:hover {
   filter: contrast(1.25);
 }
 
