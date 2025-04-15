@@ -12,8 +12,6 @@ html, body {
  
 .button {
   position: relative;
-  min-width: 80px;
-  height: 10vh;
   background-color: #000;
   display: flex;
   align-items: center;
