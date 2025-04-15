@@ -23,11 +23,13 @@ html, body {
   border-radius: 10px;
   border: none;
   color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;	
   position: relative;
   cursor: pointer;
   font-weight: 900;
   transition-duration: .2s;
-  background: linear-gradient(0deg, #000, #272727);
+  background: linear-gradient(0deg, #000, #696969);
 }
 
 .button:before, .button:after {
