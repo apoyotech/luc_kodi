@@ -25,8 +25,9 @@ html, body {
   display: flex;
   flex-direction: column;
   place-content: center;
+  padding: 0.5em 1.5em;
   width: 100%;
-  height: 80px;
+  height: 90px;
   border: 0;
   margin-top: 20px; 
   margin-bottom: 20px; 
@@ -119,18 +120,13 @@ html, body {
 
 h1 {
     font-size: 40px;
-    background-image: linear-gradient(to right,#8b008b, #191970);
+    background-image: linear-gradient(to right, #8b008b, #191970);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;    
 }
 
-img {
-    width: 426px; 
-    height: auto;
-    border: 3px solid darkgoldenrod;
-    border-radius: 15px;
- }
+
 
 h2 {
   background: rgb(139, 139, 139);
