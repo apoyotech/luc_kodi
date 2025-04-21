@@ -1,5 +1,11 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}    
 
-
+    
+    
 html, body {
     background: rgb(135, 134, 129);
     color: rgb(0, 0, 0);
