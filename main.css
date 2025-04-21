@@ -7,23 +7,22 @@ box-sizing: border-box;
     
     
 html {
-    
     background: rgb(135, 134, 129);
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
  
 body {
     width: 100%;
     min-height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
     
     
-    .cart-button {
+.cart-button {
   position: relative;
   padding: 0.8em 0.7em;
   font-family: Courier, monospace;
