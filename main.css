@@ -230,6 +230,7 @@ body {
 footer {
    margin-top: 120px;
    margin-bottom: 20px;
+   padding: 1px;
    float: right;
 }
 
