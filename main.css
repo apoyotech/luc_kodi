@@ -222,8 +222,8 @@ body {
 
   
 
-footer{ 
-.btn-github {
+footer { 
+
   cursor: pointer;
   display: flex;
   gap: 0.5rem;
@@ -245,7 +245,7 @@ footer{
   color: #fff;
 }
 
-.btn-github:hover {
+footer:hover {
   box-shadow:
     inset 0 1px 0 0 rgba(255, 255, 255, 0.08),
     inset 0 0 0 1px rgba(252, 232, 3, 0.08);
@@ -253,9 +253,9 @@ footer{
   transform: translate(0, -0.25rem);
   background-color: rgba(0, 0, 0, 0.5);
   }
+
+footer {
+float: right;
+margin-bottom: 20 px;
+margin-top: 150px;   
 }
-
-
-
-    
-
