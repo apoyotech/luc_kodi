@@ -204,6 +204,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;  
   width: 100%;
   height: auto;
   background-color: var(--contrast);
