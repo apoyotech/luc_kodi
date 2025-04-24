@@ -29,7 +29,8 @@ body {
   align-items: center;
   width: 100%;
   overflow: hidden;
-  height: auto;
+  min-height: 150px;
+  margin-top: 30px;
   background-size: 300% 300%;
   cursor: pointer;
   backdrop-filter: blur(1rem);
