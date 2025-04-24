@@ -25,7 +25,7 @@ body {
 .card {
   padding: 0.75rem;
   overflow: hidden;
-  border: 0.25px solid #c5c5c5;
+  border: 0.25px  #c5c5c5;
   border-radius: 10px;
   background-color: #e49b0f;
   backdrop-filter: blur(800px);
