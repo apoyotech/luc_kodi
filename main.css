@@ -19,7 +19,6 @@ body {
     min-height: 100vh;
     padding-left: 20px;
     padding-right: 20px;
-    dispaly: flex;
     font-size: var(--global--size);
     -webkit-font-smoothing: antialiased;
     -osx-font-smoothing: grayscale; 
