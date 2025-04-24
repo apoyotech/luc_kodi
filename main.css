@@ -104,8 +104,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
   overflow-x: auto;
   padding: 1rem;
   line-height: 20px;
