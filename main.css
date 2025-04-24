@@ -28,7 +28,7 @@ body {
   box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
 }
@@ -45,11 +45,6 @@ body {
   background: linear-gradient(744deg,#af40ff,#5b42f3 60%,#00ddeb);
 }
 
-.icon {
-  width: 3em;
-  margin-top: -1em;
-  padding-bottom: 1em;
-}
 
 .infotop {
   text-align: center;
@@ -60,14 +55,6 @@ body {
   right: 0;
   color: rgb(255, 255, 255);
   font-weight: 600;
-}
-
-.name {
-  font-size: 14px;
-  font-weight: 100;
-  position: relative;
-  top: 1em;
-  text-transform: lowercase;
 }
 
 .wave:nth-child(2),
