@@ -27,7 +27,7 @@ body {
   overflow: hidden;
   border: 0.25px solid #c5c5c5;
   border-radius: 10px;
-  background-color: navy;
+  background-color: #e49b0f;
   backdrop-filter: blur(800px);
   box-shadow: 0 0 40px 15px blue;
   min-width: 344px;
@@ -84,7 +84,7 @@ body {
   padding: 0.3rem;
   border: 0.65px solid darkgrey;
   margin-left: auto;
-  border-radius: 6px;
+  border-radius: 5px;
   background-color: #202425;
   color: #8e8e8e;
   cursor: pointer;
@@ -187,7 +187,7 @@ body {
 }
 @keyframes clipboard-check {
   100% {
-    color: deepskyblue;
+    color: #003399;
    
   }
 }
