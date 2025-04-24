@@ -25,10 +25,9 @@ body {
 }
  
 button {
-  color: #090909;
+  
   padding: 0.7em 1.7em;
-  font-size: 23px;
-  font-family: "Inter" ,sans-serif;
+  font-family: 'Inter' ,sans-serif;
   margin-top: 30px;
   width: 100%;  
   height: auto;
@@ -40,7 +39,19 @@ button {
   box-shadow:
     6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
+
+  letter-spacing: -0.05em;
+  font-weight: 500;
+  font-size: 1em;
+  color: rgba(50, 50, 50, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
+
 }
+
+
+
 
 button:active {
   color: #666;
