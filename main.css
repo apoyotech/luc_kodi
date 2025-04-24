@@ -26,7 +26,7 @@ body {
   padding: 0.75rem;
   overflow: hidden;
   border: 0.25px solid #c5c5c5;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: navy;
   backdrop-filter: blur(800px);
   box-shadow: 0 0 40px 15px blue;
@@ -188,7 +188,7 @@ body {
 @keyframes clipboard-check {
   100% {
     color: deepskyblue;
-   d: path("M 9 5 H 7 a 2 2 0 0 0 -2 2 v 12 a 2 2 0 0 0 2 2 h 10 a 2 2 0 0 0 2 -2 V 7 a 2 2 0 0 0 -2 -2 h -2 M 9 5 a 2 2 0 0 0 2 2 h 2 a 2 2 0 0 0 2 -2 M 9 5 a 2 2 0 0 1 2 -2 h 2 a 2 2 0 0 1 2 2 m -6 9 l 2 2 l 4 -4");
+   
   }
 }
 
