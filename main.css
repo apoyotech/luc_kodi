@@ -34,7 +34,7 @@ body {
   background-size: 300% 300%;
   cursor: pointer;
   backdrop-filter: blur(1rem);
-  border-radius: 5rem;
+  border-radius: 10px;
   transition: 0.5s;
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
@@ -58,7 +58,7 @@ strong {
   font-size: 23px;
   letter-spacing: 5px;
   color: #ffffff;
-  text-shadow: 0 0 4px white;
+  text-shadow: 0 0 4px #E49B0F;
 }
 
 #glow {
@@ -99,16 +99,6 @@ strong {
 .btn:active .circle {
   background: #fe53bb;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes gradient_301 {
