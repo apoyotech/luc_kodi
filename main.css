@@ -22,29 +22,7 @@ body {
 
  
 
-.card {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background: rgb(23,23,23);
-  border-radius: 20px;
-  padding: 20px;
-  padding-left: 130px;
-  transition: 0.3s;
-}
 
-.card:hover {
-  filter: drop-shadow(5px 5px 0px rgb(185,100,255))
-  drop-shadow(5px 5px 0px rgb(103,74,255))
-  drop-shadow(5px 5px 0px rgb(12,204,238));
-  scale: 1.05;
-}
-
-.svg {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-}
 
   
  
