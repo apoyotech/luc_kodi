@@ -64,7 +64,7 @@ body {
   width: 100%;
   height: auto;
   background-color: var(--contrast);
-  border-radius: 20px;
+  border-radius: 10px;
   /* Content style */
   font-size: 20px;
   font-weight: 900;
