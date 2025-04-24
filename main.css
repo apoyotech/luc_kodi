@@ -25,7 +25,7 @@ body {
 .card {
   padding: 0.75rem;
   overflow: hidden;
-  border: 0.25px  #e49b0f;
+  border: 0.25px solid #e49b0f;
   border-radius: 10px;
   background-color: #e49b0f;
   backdrop-filter: blur(800px);
@@ -121,7 +121,7 @@ body {
   white-space: pre;
   overflow: hidden;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 18px;
 }
 .pre code:nth-child(1) {
   color: #575757;
