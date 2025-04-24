@@ -30,7 +30,19 @@ body {
 /* ========== BUTTON ========== */
 
 /* Button Wrap Container */
-.button-wrap {
+ 
+ 
+
+ .button-wrap {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--global--size);   
+  webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  
   position: relative;
   z-index: 2;
   border-radius: 999px;
@@ -85,6 +97,7 @@ body {
   --border-width: clamp(1px, 0.0625em, 4px);
   all: unset;
   cursor: pointer;
+  width: 100%;
   margin-top: 30px;
   height: auto;  
   position: relative;
