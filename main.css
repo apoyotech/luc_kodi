@@ -106,6 +106,8 @@ body {
   --border-width: clamp(1px, 0.0625em, 4px);
   all: unset;
   cursor: pointer;
+  margin-top: 30px;
+  height: auto;  
   position: relative;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   pointer-events: auto;
