@@ -35,9 +35,7 @@ body {
     heigth: auto;
     margin-top: 30px;
     
-  --global--size: clamp(2rem, 3em, 5rem);
-  --anim--hover-time: 400ms;
-  --anim--hover-ease: cubic-bezier(0.25, 1, 0.5, 1);    
+      
   
   
   display: flex;
