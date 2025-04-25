@@ -22,6 +22,9 @@ body {
 
  
 .header {
+  
+  justify-content: center;
+  text-align: center; 
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -35,10 +38,10 @@ h1 {
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  display: inline-block;
   font-size: var(--global--size);
   font-family: "Inter", sans-serif;
+  text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
+  letter-spacing: -0.05em;
 }
 
 
