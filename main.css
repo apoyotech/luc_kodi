@@ -21,8 +21,8 @@ body {
 
 
  
-.header {
-  
+header {
+  justify-content: center;
   text-align: center; 
   margin-top: 30px;
   width: 100%;
