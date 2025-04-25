@@ -10,6 +10,9 @@ html {
     background: rgb(229, 228, 226);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    color: rgba(50, 50, 50, 1);
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
  
 
@@ -112,10 +115,11 @@ button:active {
   h2 {
   font-size: 18px;
   font-weight: 900;
-  color: #000000;
-  
   font-family: monospace;
-}
+  color: rgba(50, 50, 50, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
  
 
 
