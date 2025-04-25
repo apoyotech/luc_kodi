@@ -36,7 +36,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;    
-    
+  width: 100%; 
+  heigth: auto; 
+  margin-top: 3opx;
     
   position: relative;
   z-index: 2;
