@@ -39,6 +39,10 @@ button {
     6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
 
+} 
+    
+
+h1 {   
   letter-spacing: -0.05em;
   font-weight: 50px;
   font-size: 23px;
