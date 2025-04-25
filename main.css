@@ -38,6 +38,8 @@ h1 {
   text-align: center;
   text-decoretion: none;
   display: inline-block;
+  font-size: var(--global--size);
+  font-family: "Inter", sans-serif;
 }
 
 
