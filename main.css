@@ -8,7 +8,6 @@ box-sizing: border-box;
     
 html {
     background: rgb(229, 228, 226);
-    color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
@@ -31,7 +30,7 @@ button {
   margin-top: 30px;
   width: 100%;  
   height: auto;
-  border-radius: 30px;
+  border-radius: 20px;
   background: #e8e8e8;
   cursor: pointer;
   border: 1px solid #e8e8e8;
@@ -39,7 +38,9 @@ button {
   box-shadow:
     6px 6px 12px #c5c5c5,
     -6px -6px 12px #ffffff;
-
+}
+  
+h1 {
   letter-spacing: -0.05em;
   font-weight: 50px;
   font-size: 23px;
@@ -47,7 +48,6 @@ button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
-
 }
 
 
