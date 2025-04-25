@@ -29,24 +29,6 @@ body {
 /* ========== BUTTON BASE STYLES ========== */
 
 .button {
-  /* Basic Styling */
-
-  width: 100%; 
-  heigth: auto;
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--global--size);
-  background-color: #d7d7d7;
-  overflow: hidden;  
-    
-    
-    
-    
-    
-    
-    
   --border-width: clamp(1px, 0.0625em, 4px);
   all: unset;
   cursor: pointer;
