@@ -44,7 +44,7 @@ h1 {
   font-family: "Inter", sans-serif;
   text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
   letter-spacing: -0.05em;
-  display: inline;
+  display: flex;
   position: relative;
 }
 
@@ -92,7 +92,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  display: inline-block;
+  display: flex;
   }
  
 
