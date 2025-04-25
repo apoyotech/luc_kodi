@@ -106,7 +106,7 @@ button:active {
   width: 100%;
   height: auto;
   background-color: var(--contrast);
-  border-radius: 30px;
+  border-radius: 35px;
 }
 /* Content style */
   h2 {
