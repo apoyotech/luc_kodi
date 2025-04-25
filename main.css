@@ -36,7 +36,6 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  text-decoretion: none;
   display: inline-block;
   font-size: var(--global--size);
   font-family: "Inter", sans-serif;
@@ -87,7 +86,6 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  text-decoretion: none;
   display: inline-block;
   }
  
