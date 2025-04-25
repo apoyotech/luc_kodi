@@ -48,7 +48,7 @@ h1 {
   font-family: "Inter", sans-serif;
   letter-spacing: -0.05em;
   font-weight: 900;
-  font-size: 23px;
+  font-size: 30px;
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -115,6 +115,9 @@ button:active {
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  text-decoretion: none;
+  display: inline-block;
   }
  
 
