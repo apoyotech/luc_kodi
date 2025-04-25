@@ -31,21 +31,14 @@ body {
 .button {
   /* Basic Styling */
 
-    width: 100%; 
-    heigth: auto;
-    margin-top: 30px;
-    
-      
-  
-  
+  width: 100%; 
+  heigth: auto;
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: var(--global--size);
   background-color: #d7d7d7;
-  font-family: "Inter", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   overflow: hidden;  
     
     
