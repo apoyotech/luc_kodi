@@ -37,7 +37,7 @@ h1 {
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: var(--global--size);
+  font-size: 30px;
   font-family: "Inter", sans-serif;
   text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
   letter-spacing: -0.05em;
@@ -82,7 +82,7 @@ h1 {
 
   h2 {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 500;
   font-family: monospace;
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
