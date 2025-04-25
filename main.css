@@ -31,10 +31,14 @@ body {
 }
 
 
-
-
-
-
+h1 {
+  color: rgba(50, 50, 50, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  text-decoretion: none;
+  display: inline-block;
+}
 
 
 
