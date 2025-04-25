@@ -9,11 +9,9 @@ box-sizing: border-box;
 html {
     background: rgb(229, 228, 226);
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: rgba(50, 50, 50, 1);
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+    font-size: var(--global--size);
 }
+
  
 
 body {
@@ -21,8 +19,7 @@ body {
     min-height: 100vh;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: var(--global--size);
- }
+}
  
 button {
   padding: 0.7em 1.7em;
@@ -56,7 +53,6 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
-  transition: all var(--anim--hover-time) var(--anim--hover-ease);
   padding-inline: 1.5em;
   padding-block: 0.875em;
 }
