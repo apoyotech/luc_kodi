@@ -40,14 +40,25 @@ button {
     
 
 h1 {   
+  position: relative;
+  display: block;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  font-family: "Inter", sans-serif;
   letter-spacing: -0.05em;
-  font-weight: 900;
-  font-size: 23px;
+  font-weight: 500;
+  font-size: 1em;
   color: rgba(50, 50, 50, 1);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0em 0.25em 0.05em rgba(0, 0, 0, 0.1);
+  transition: all var(--anim--hover-time) var(--anim--hover-ease);
+  padding-inline: 1.5em;
+  padding-block: 0.875em;
 }
+
 
 
 button:active {
