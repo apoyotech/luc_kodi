@@ -23,7 +23,6 @@ body {
  
 button {
   padding: 0.7em 1.7em;
-  font-family: 'Inter' ,sans-serif;
   margin-top: 30px;
   width: 100%;  
   height: auto;
@@ -107,7 +106,7 @@ button:active {
   width: 100%;
   height: auto;
   background-color: var(--contrast);
-  border-radius: 35px;
+  border-radius: 30px;
 }
 
   h2 {
