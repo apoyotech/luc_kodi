@@ -9,7 +9,9 @@ box-sizing: border-box;
 html {
     background: rgb(229, 228, 226);
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
+
 }
 
 body {
