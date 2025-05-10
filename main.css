@@ -21,9 +21,6 @@ body {
     padding-right: 20px; 
 }
 
-li::marker {
-  color: red;
-} 
 
 header {
   justify-content: center;
