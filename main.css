@@ -21,8 +21,10 @@ body {
     padding-right: 20px; 
 }
 
+li::marker {
+  color: mediumspringgreen;
+} 
 
- 
 header {
   justify-content: center;
   text-align: center; 
