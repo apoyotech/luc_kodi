@@ -96,8 +96,10 @@ h1 {
 h3 {
   font-family: monospace;
   font-size: 16px;
-  font-weight: 500;
-  }
+  color: rgba(50, 50, 50, 1);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
   
 
 footer {
