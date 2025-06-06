@@ -96,7 +96,7 @@ h1 {
 h3 {
   font-family: monospace;
   font-size: 14px;
-  letter-spacing: -0.05em
+  letter-spacing: -0.05em;
   font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
