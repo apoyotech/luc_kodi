@@ -110,21 +110,19 @@ button {
 
 
   h2 {
-  font-size: 20px;
   font-weight: 500;
   font-family: monospace;
-  color: rgba(50, 50, 50, 1);
+  letter-spacing: -0.05em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  display: run-in;
   }
  
 h3 {
   font-family: monospace;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: -0.05em;
-  font-weight: 200;  
+  font-weight: 500;  
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(255, 224, 181);
