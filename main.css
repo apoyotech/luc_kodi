@@ -1,0 +1,149 @@
+/* luc_kodi – clean, accessible, and Kodi-friendly */
+* { box-sizing: border-box; }
+:root {
+  --bg: #f5f7fb;
+  --text: #222;
+  --muted: #6b7280;
+  --card: #ffffff;
+  --ring: #3b82f6;
+  --accent: #0ea5e9;
+  --radius: 16px;
+  --shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b0d12;
+    --text: #e5e7eb;
+    --muted: #a1a1aa;
+    --card: #121621;
+    --ring: #60a5fa;
+    --accent: #22d3ee;
+    --shadow: 0 20px 40px rgba(0,0,0,.45);
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+.container {
+  width: min(1100px, 92vw);
+  margin-inline: auto;
+  padding: 16px;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: saturate(180%) blur(8px);
+  background: color-mix(in srgb, var(--bg), transparent 15%);
+  border-bottom: 1px solid color-mix(in srgb, var(--text), transparent 90%);
+}
+.brand {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  font-size: clamp(28px, 5vw, 40px);
+  margin: 8px 0 0 0;
+}
+.tagline { margin: 4px 0 14px 0; color: var(--muted); }
+
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+  margin: 18px 0;
+  border: 1px solid color-mix(in srgb, var(--text), transparent 90%);
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.howto .steps { padding-left: 20px; }
+.howto .steps li { margin: 6px 0; }
+
+.downloads-header {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  align-items: end;
+}
+.downloads-header h2 { margin: 0; }
+.search-box {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.search-box input[type="search"] {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--text), transparent 85%);
+  background: color-mix(in srgb, var(--bg), transparent 10%);
+  color: var(--text);
+  outline: none;
+}
+.search-box input[type="search"]:focus {
+  border-color: var(--ring);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--ring), transparent 75%);
+}
+.count { color: var(--muted); font-size: 14px; }
+
+.repo-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  margin: 14px 0 30px 0;
+  padding: 0;
+}
+.repo-list li {
+  border: 1px solid color-mix(in srgb, var(--text), transparent 88%);
+  background: var(--card);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  transition: transform .06s ease, box-shadow .2s ease;
+  overflow: clip;
+}
+.repo-list li:focus-within,
+.repo-list li:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.12);
+}
+.repo-list a {
+  display: block;
+  padding: 14px 14px;
+  text-decoration: none;
+  color: var(--text);
+  word-break: break-word;
+}
+.repo-list a:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: -3px;
+  border-radius: 10px;
+}
+.repo-list a::before {
+  content: "⬇️ ";
+  opacity: .85;
+  margin-right: 6px;
+}
+
+.site-footer {
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: flex-end;
+}
+.badge {
+  display: inline-block;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: var(--muted);
+  border: 1px dashed color-mix(in srgb, var(--text), transparent 85%);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.badge:hover { color: var(--text); }
