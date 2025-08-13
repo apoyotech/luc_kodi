@@ -47,14 +47,14 @@ h1 {
   position: relative;
 }
 
-
+ 
 button {
   font-size: 1.4em;
   padding: 0.6em 0.8em;
   border-radius: 0.5em;
   border: none;
-  background-color: #212121;
-  color: #e8e8e8;
+  background-color: #000;
+  color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 3px #000000b4;
 }
@@ -86,21 +86,10 @@ button {
   filter: blur(0.2em);
 }
 
-
- 
-h3 {
-  font-family: monospace;
-  font-size: 18px;
-  letter-spacing: -0.05em;
-  font-weight: 500;  
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: rgb(255, 224, 181);
-}
   
 
 footer {
    float: right;
    margin-bottom: 20px;
    margin-top: 150px;   
-}
+  }
