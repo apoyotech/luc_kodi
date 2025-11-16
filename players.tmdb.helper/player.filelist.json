@@ -1,0 +1,15 @@
+{
+  "name": "[COLOR lime]FileList(MRSP)[/COLOR]",
+  "plugin": "plugin.video.romanianpack",
+  "priority": 500,
+  "assert": {
+    "search_movie": [
+      "title"
+    ],
+    "search_episode": [
+      "showname"
+    ]
+  },
+  "search_movie": "plugin://plugin.video.romanianpack/?action=searchSites&searchSites=cuvant&Stype=torrs&landsearch=filelist&cuvant={title}",
+  "search_episode": "plugin://plugin.video.romanianpack/?action=searchSites&searchSites=cuvant&landsearch=filelist&cuvant={showname}"
+}
